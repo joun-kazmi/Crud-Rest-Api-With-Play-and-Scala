@@ -1,9 +1,32 @@
-logs
-target
-/.idea
-/.idea_modules
-/.classpath
-/.project
-/.settings
-/RUNNING_PID
-/.sbtserver
+# Play / sbt build artifacts
+target/
+project/target/
+project/project/
+project/.sbtserver
+project/.sbtserver.lock
+.sbtserver/
+.cache
+.cache-main
+logs/
+*.log
+*.log.*
+RUNNING_PID
+
+# Compiled / staged output and vendored launcher
+bin/
+libexec/
+*.jar
+
+# IDE
+.idea/
+.idea_modules/
+.classpath
+.project
+.settings/
+*.iml
+
+# OS
+.DS_Store
+
+# Local secrets
+.env
